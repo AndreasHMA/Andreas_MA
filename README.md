@@ -7,17 +7,17 @@ The goal is to analyze tweets based on their sentiment, or the polarity of them,
 The task of the present codes is to download tweets related to the defined search parameters, to examine them according to certain criteria or based on questions and filter them accordingly. These are then finally analyzed using sentiment analysis and the desired values are presented. During the sentiment analysis, the positive and negative words and the corresponding polarity values are collected and saved. These can then be visualized in the WordCloud code. In the same step, the tweets can also be prepared for the subsequent visualization with the bubble map using the Dataframe processing code.
 As these programs all belong together, they have also to run in the following order to get the desired result:
 
-TweetSearch + search_tweets_creds_example
+*TweetSearch + search_tweets_creds_example*
 
-Deleting Duplicates
+*Deleting Duplicates*
 
-Data filtering
+*Data filtering*
 
-SentimentAnalysis
+*SentimentAnalysis*
 
-WordCloud
+*WordCloud*
 
-Data processing + Bubble Map
+*Data processing + Bubble Map*
 
 The in- and output is described in detailed form in the individual sections. 
 As the codes mentioned above share the components to a large extent, therefore now also in the following all necessary programs, installations and/or modules or packages and the corresponding versions of these are represented once and apply to all following codes and the further presentation of these. The programs are downloaded either directly from the webside of the respective manufacturers or depending upon existence of the modules with the help of the Anaconda navigator or Python packages. The table below shows the actual versions used during the time of the project. These were the most recent versions at that point in time.  Also, some modules only run with certain Anaconda, Pycharm or even Python versions and therefore differ from the current version. The following components and versions are applied:
