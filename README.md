@@ -1,6 +1,6 @@
 # Introduction
 
-> This project was developed as part of a master's thesis for the degree of Masters of Arts in Digital Humanities at the University of Basel. The title of the thesis is: The Vaccination Discussion during the COVID-19 Pandemic. A sentiment analysis.
+This project was developed as part of a master's thesis for the degree of Masters of Arts in Digital Humanities at the University of Basel. The title of the thesis is: The Vaccination Discussion during the COVID-19 Pandemic. A sentiment analysis.
 
 The goal is to analyze tweets based on their sentiment, or the polarity of them, using the methodology of sentiment analysis. In doing so, the most positive frequent and most negative frequent words are also analyzed using Word Clouds and finally, the numerical distribution of tweets is also presented into a geographical perspective using the Bubble Map.  
 
