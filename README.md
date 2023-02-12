@@ -1,4 +1,4 @@
-Introduction
+# Introduction
 
 This project was developed as part of a master's thesis for the degree of Masters of Arts in Digital Humanities at the University of Basel. The title of the thesis is: The Vaccination Discussion during the COVID-19 Pandemic. A sentiment analysis.
 
