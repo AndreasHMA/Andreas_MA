@@ -53,26 +53,32 @@ Plotly	5.9.0
 As already shown, Pycharm or Python is used via the Anaconda Navigator and accordingly these are also installed with or via Anaconda. In general, it is recommended to copy all programs into a single Python project, because this way not only the installations are shared between the programs, but also the inputs and outputs can be used in parallel and all required components are located in one directory. The programs are in such a way adjusted taking the input and the output always from the current project and/or the current Directory and/or the location of the programs. This simplifies the handling substantially. 
 The names of the files of the input and output have to be inserted in the respective line of the code. The exact line and location is marked with the following sentence: Please enter filename. If necessary, also depending on the code for example, the titles have to be changed. This is usually also in connection with: Please enter...Finally, it should be noted that the description of the codes or the lines is also present in the code itself in detailed form. Also the properties and/or the changed parameters of the respective codes are listed briefly. The meaning of these is to be taken from the respective documentation of the modules resp. the most important parameters and attitudes are more defined also in the chapter methodology in the work mentioned above. However, most of these are self-explanatory or only visual in nature and can therefore be set according to one's own preferences.
 
+
 TweetSearch and search_tweets_creds_example
 
 The programs TweetSearch and search_tweets_creds_example are to be used together. Search_tweets_creds_example provides the authentication keys and the endpoint to Twitter. For the application, a Twitter Developer Account with Academic Research Access and corresponding keys and tokens must be available. These must then be copied into search_tweets_creds_example at the appropriate places. The YAML file does not take any input except the keys and tokens already outlined, and in that sense does not present any output directly. 
 Therefore, the TweetSearch program does not take any direct input from the directory. However, the YAML file must be in the same Directory as it provides the authentication. In summary, the program takes the authentication codes and, using them and search parameters set in that code, retrieves tweets, returns them to the user, and finally saves them as a JSON file or converts and saves the code. In this sense the output is a JSON, which is not interesting for further codes, and a CSV file. The downloaded tweets are now in this file on the basis of the set search parameters. These will be further used in the next steps.
 
+
 Deleting Duplicates
 
 The code Deleting Duplicates takes a CSV file and removes duplicates based on the "text" column in the dataframe. Hereby the first entry of the duplicate will be kept. It is intended that the CSV file is taken from the SearchTweets code. The output here is an Excel file. In the next steps we will only work with Excel files in the in- and output. 
+
 
 Data filtering
 
 The code Data filtering is used comprehensivly to filter the data according to certain criteria. Hereby the Excel file from the code Deleting Duplicates should be filtered according to the desired criteria depending on the question setup. Again, this takes an Excel file and deliver an Excel file.
 
+
 SentimentAnalysis
 
 Now to the central step of the sentiment analysis in the name-giving code SentimentAnalysis. This code takes an Excel file as input. This should come from the code data filtering. The code processes and analyzes with the help of SpaCy, the big English pipeline en_core_web_lg and SpaCyTextBlob the passed file respectively the column "text". The output of the program is manifold. On one side the output of the sentiment analysis itself is stored in an Excel file. On the other side, two Excel files containing the positive and negative words resp. their corresponding polarity values analyzed in the sentiment analysis are created. These two Excel files are needed for the later WordCloud. Subsequently, the Excel file with the result of the sentiment analysis is entered again, converted into a CSV, rewritten into a data frame and finally divided into three data frames according to the "Polarity" column, i.e. according to the polarity values. With the help of these, the number of positive, negative and neutral tweets in a given period, the average positive and negative polarity in a given period, the number of positive, negative and neutral tweets per month in a given period and finally the average positive and negative polarity per month in a given period are delivered.
 
+
 WordCloud
 
 The following code visualizes the two Word Clouds. The two Excel files delivered in the previous step, which contain the positive and negative polarity carriers as well as the positive and negative polarity values, are inserted here as input and converted into two data frames and finally converted into a Sting. Finally two Word Clouds, one for the positive words and one for the negative terms are visualized and saved as JPG. 
+
 
 Data processing and bubble map
 
