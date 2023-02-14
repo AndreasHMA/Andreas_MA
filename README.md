@@ -6,7 +6,8 @@ This project was developed as part of a master's thesis for the degree of Master
 
 The goal is to analyze tweets based on their sentiment, or the polarity of them, using the methodology of sentiment analysis. In doing so, the most positive frequent and most negative frequent words are also analyzed using *Word Clouds* and finally, the numerical distribution of tweets is also presented into a geographical perspective using the *Bubble Map*.  
 
-The task of the present codes is to download tweets related to the defined search parameters, to examine them according to certain criteria or based on questions and filter them accordingly. These are then finally analyzed using sentiment analysis and the desired values are presented. During the sentiment analysis, the positive and negative words and the corresponding polarity values are collected and saved. These can then be visualized in the *WordCloud* code. In the same step, the tweets can also be prepared for the subsequent visualization with the *ubble map* using the *Dataframe processing* code.
+The task of the actual codes is to download tweets related to the defined search parameters, to check them according to certain criteria or based on questions and filter them accordingly. By applying the sentiment analysis the Tweets are analysed and the desired values are presented. During the sentiment analysis, the positive and negative words and the corresponding polarity values are also collected and saved, followed by a visualization in the *WordCloud* code. In a different step, the tweets can also be prepared for the subsequent visualization with the *Bubble map* using the *Dataframe processing* code.
+
 As these programs all belong together, they have also to run in the following order to get the desired result:
 
 *TweetSearch + search_tweets_creds_example*
