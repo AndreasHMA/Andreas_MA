@@ -1,4 +1,6 @@
-# Introduction
+# xxx
+
+## Introduction
 
 This project was developed as part of a master's thesis for the degree of Masters of Arts in Digital Humanities at the University of Basel. The title of the thesis is: The Vaccination Discussion during the COVID-19 Pandemic. A sentiment analysis.
 
@@ -23,6 +25,8 @@ The in- and output is described in detailed form in the individual sections.
 As the codes mentioned above share the components to a large extent, therefore now also in the following all necessary programs, installations and/or modules or packages and the corresponding versions of these are represented once and apply to all following codes and the further presentation of these. The programs are downloaded either directly from the webside of the respective manufacturers or depending upon existence of the modules with the help of the Anaconda navigator or Python packages. The table below shows the actual versions used during the time of the project. These were the most recent versions at that point in time.  Also, some modules only run with certain Anaconda, Pycharm or even Python versions and therefore differ from the current version. The following components and versions are applied:
 
 Anaconda Navigator/ Distribution 	2.3.2 https://www.anaconda.com/ 
+
+Windows 10 64-Bit Version
 
 Pycharm Professional	2022.03
 
